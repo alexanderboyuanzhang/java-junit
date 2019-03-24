@@ -1,17 +1,13 @@
-package com.boyuanzhang.writingatest;
+package com.boyuanzhang.assertion;
 
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
 import org.junit.runner.notification.Failure;
 
-/**
- * @author BoyuanZhang
- *
- */
 public class TestRunner {
 	public static void main(String[] args) {
-//		Result result = JUnitCore.runClasses(TestEmployeeDetails.class);
-		Result result = JUnitCore.runClasses(TestJunit.class);
+		Result result = JUnitCore.runClasses(JunitAnnotation.class);
+
 		for (Failure failure : result.getFailures()) {
 			System.out.println(failure.toString());
 		}

@@ -1,4 +1,4 @@
-# JUnit Setup Maven – JUnit 4 and JUnit 5
+# JUnit 5
 
 ### Boyuan Zhang
 
