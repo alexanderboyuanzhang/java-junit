@@ -20,4 +20,9 @@ public class MessageUtil {
 		System.out.println(message);
 		return message;
 	}
+
+	public Object salutationMessage() {
+		message = "Hi! " + message;
+		return message;
+	}
 }
